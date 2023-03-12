@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+button {
+  width: 120px;
+  height: 50px;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 50px 10%;
+}
+.reload-click {
+  width: 155px;
+  background-color: rgb(250, 241, 241);
+}
+.photos {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+}
