@@ -1094,24 +1094,8 @@ const countries = [
     },
   },
 ];
-const changeTextBtn = document.querySelector("#see-more");
-const text = document.querySelector("#see-more");
-changeTextBtn.addEventListener("click", (event) => {
-  text.innerText = "Hide info";
-});
-
-// about country
-
-function renderCountries() {
-  const countriesHTML = countries.map((countries, index) => {
-    return `
-        <div class="cards">
-          <img src="${countries.flags.png}" alt="${countries.alt}" />
-          <h1>${countries.name}</h1>
-        </div>
-      `;
-  });
-
-  document.querySelector(".country").innerHTML = countriesHTML;
-  console.log(countriesHTML);
-}
+// const changeTextBtn = document.querySelector("#see-more");
+// const text = document.querySelector("#see-more");
+// changeTextBtn.addEventListener("click", (event) => {
+//   text.innerText = "Hide info";
+// });
